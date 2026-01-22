@@ -16,6 +16,15 @@ export const metadata: Metadata = {
   title: "Nile Developments | The pioneer of skyscrapers",
   description:
     "Nile Developments is an Egyptian joint stock company listed on the Stock Exchange and the Investment Authority. It established by Eng. Mohamed Taher and Mr. Mahmoud Taher",
+  icons: {
+    icon: '/fav-icon.png',
+    shortcut: '/fav-icon.png',
+    apple: '/fav-icon.png',
+    other: {
+      rel: 'apple-touch-icon-precomposed',
+      url: '/fav-icon.png',
+    },
+  },
   keywords: [
     "Nile Developments",
     "Egyptian real estate",
@@ -41,7 +50,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
   alternates: {
-    canonical: "/",
+    canonical: process.env.NEXT_PUBLIC_SITE_URL,
   },
   openGraph: {
     title: "Nile Developments | The pioneer of skyscrapers",
