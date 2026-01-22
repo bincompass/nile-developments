@@ -4,12 +4,12 @@ export default function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "شركة نايل للتطوير العقاري",
+    name: "شركة النيل للتطوير العقاري",
     alternateName: "Nile Developments",
     url: baseUrl,
     logo: `${baseUrl}/assets/images/logos/main-logo.svg`,
     description:
-      "شركة نايل للتطوير العقاري هي شركة مساهمة مصرية مقيدة بالبورصة وهيئة الاستثمار. تأسست بواسطة المهندس محمد طاهر والسيد محمود طاهر",
+      "نايل للتطوير العقاري هي شركة مساهمة مصرية ومقيدة بالبورصة وهيئة الاستثمار أسست بواسطة المهندس محمد طاهر و الأستاذ محمود طاهر.",
     "foundingDate": "2002",
     "founder": [
       {
@@ -18,7 +18,7 @@ export default function StructuredData() {
       },
       {
         "@type": "Person",
-        "name": "السيد محمود طاهر"
+        "name": "الأستاذ محمود طاهر"
       }
     ],
     sameAs: [
@@ -36,9 +36,9 @@ export default function StructuredData() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "شركة نايل للتطوير العقاري",
+    "name": "شركة النيل للتطوير العقاري",
     "url": baseUrl,
-    "description": "رائدة ناطحات السحاب في مصر",
+    "description": "رواد ناطحات السحاب في مصر",
     potentialAction: {
       "@type": "SearchAction",
       target: `${baseUrl}/?s={search_term_string}`,
@@ -49,7 +49,7 @@ export default function StructuredData() {
   const realEstateSchema = {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
-    name: "شركة نايل للتطوير العقاري",
+    name: "شركة النيل للتطوير العقاري",
     url: baseUrl,
     logo: `${baseUrl}/assets/images/logos/main-logo.svg`,
     description:

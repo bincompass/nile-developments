@@ -2,9 +2,9 @@ import { MetadataRoute } from 'next'
  
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'شركة نايل للتطوير العقاري | رائدة ناطحات السحاب',
+    name: 'شركة النيل للتطوير العقاري | رواد ناطحات السحاب',
     short_name: 'نايل للتطوير العقاري',
-    description: 'شركة نايل للتطوير العقاري هي شركة مساهمة مصرية مقيدة بالبورصة وهيئة الاستثمار. تأسست بواسطة المهندس محمد طاهر والسيد محمود طاهر',
+    description: 'نايل للتطوير العقاري هي شركة مساهمة مصرية ومقيدة بالبورصة وهيئة الاستثمار أسست بواسطة المهندس محمد طاهر و الأستاذ محمود طاهر.',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
