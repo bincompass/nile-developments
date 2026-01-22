@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Video, MessageCircle, MousePointer2, ArrowUp } from "lucide-react";
+import { MousePointer2, ArrowUp } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export default function FloatingActions() {
