@@ -19,7 +19,7 @@ const footerLinks = {
   links: [
     { name: "About Us", href: "/", scrollTo: "about-us" },
     { name: "Our Legacy", href: "/", scrollTo: "stats" },
-    { name: "Contact", href: "/", scrollTo: "contact" },
+    { name: "Contact", href: "/", scrollTo: "register-interest" },
   ],
   projects: [
     { name: "Tycoon Tower", href: "/", scrollTo: "projects" },
@@ -37,7 +37,7 @@ const footerLinks = {
       name: "Schedule Meeting",
       href: "/",
       icon: Video,
-      scrollTo: "contact",
+      scrollTo: "register-interest",
     },
     {
       name: "Contact via WhatsApp",

@@ -44,7 +44,7 @@ export default function FloatingActions() {
       <div className="bg-[#1a1a1a] rounded-full p-1.5 flex items-center gap-2 shadow-2xl border border-white/10 backdrop-blur-sm">
         <Button
           onClick={handleScroll}
-          className="bg-[#1a1a1a] hover:bg-white/10 text-white rounded-full px-6 py-2 flex items-center gap-3 border border-white/20 h-10 group transition-all"
+          className="bg-[#1a1a1a] hover:bg-white/10 text-white rounded-full px-6 py-2 flex items-center gap-3 border border-white/20 h-10 group transition-all cursor-pointer"
         >
           <div className="w-6 h-6 flex items-center justify-center border border-white/40 rounded-sm group-hover:border-white transition-colors">
             <MousePointer2 className="w-4 h-4 text-white" />

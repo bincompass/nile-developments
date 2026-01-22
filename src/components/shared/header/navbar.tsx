@@ -25,7 +25,7 @@ export const navLinks = [
   { title: "PROPERTIES", href: "/", scrollTo: "properties" },
   { title: "ABOUT US", href: "/", scrollTo: "about-us" },
   { title: "OUR LEGACY", href: "/", scrollTo: "stats" },
-  { title: "CONTACT", href: "/", scrollTo: "contact" },
+  { title: "CONTACT", href: "/", scrollTo: "register-interest" },
 ];
 
 const handleSmoothScroll = (

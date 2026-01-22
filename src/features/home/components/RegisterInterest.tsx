@@ -5,7 +5,9 @@ import Image from "next/image";
 import ReactCountryFlag from "react-country-flag";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import StaggerContainer, { StaggerItem } from "@/components/shared/StaggerContainer";
+import StaggerContainer, {
+  StaggerItem,
+} from "@/components/shared/StaggerContainer";
 
 const countries = [
   { code: "EG", dial: "+20", name: "Egypt" },
@@ -25,7 +27,7 @@ export default function RegisterInterest() {
   const [primaryCountry, setPrimaryCountry] = useState(countries[0]);
   return (
     <section
-      id="contact"
+      id="register-interest"
       className="relative py-12 md:py-20 px-4 md:px-20 bg-[#2a2a2a] overflow-hidden"
     >
       {/* Background Image */}
