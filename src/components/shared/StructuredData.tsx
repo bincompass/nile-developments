@@ -4,22 +4,22 @@ export default function StructuredData() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Nile Developments",
-    alternateName: "Nile Development Group",
+    name: "شركة نايل للتطوير العقاري",
+    alternateName: "Nile Developments",
     url: baseUrl,
     logo: `${baseUrl}/assets/images/logos/main-logo.svg`,
     description:
-      "Nile Developments is an Egyptian joint stock company listed on the Stock Exchange and the Investment Authority. It established by Eng. Mohamed Taher and Mr. Mahmoud Taher",
-    foundingDate: "2002",
-    founder: [
+      "شركة نايل للتطوير العقاري هي شركة مساهمة مصرية مقيدة بالبورصة وهيئة الاستثمار. تأسست بواسطة المهندس محمد طاهر والسيد محمود طاهر",
+    "foundingDate": "2002",
+    "founder": [
       {
         "@type": "Person",
-        name: "Eng. Mohamed Taher",
+        "name": "المهندس محمد طاهر"
       },
       {
         "@type": "Person",
-        name: "Mr. Mahmoud Taher",
-      },
+        "name": "السيد محمود طاهر"
+      }
     ],
     sameAs: [
       "https://www.facebook.com/niledevelopmentseg",
@@ -36,9 +36,9 @@ export default function StructuredData() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Nile Developments",
-    url: baseUrl,
-    description: "The pioneer of skyscrapers in Egypt",
+    "name": "شركة نايل للتطوير العقاري",
+    "url": baseUrl,
+    "description": "رائدة ناطحات السحاب في مصر",
     potentialAction: {
       "@type": "SearchAction",
       target: `${baseUrl}/?s={search_term_string}`,
@@ -49,56 +49,56 @@ export default function StructuredData() {
   const realEstateSchema = {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
-    name: "Nile Developments",
+    name: "شركة نايل للتطوير العقاري",
     url: baseUrl,
     logo: `${baseUrl}/assets/images/logos/main-logo.svg`,
     description:
-      "Leading real estate developer in New Administrative Capital, New Cairo, and Al Mansoura",
-    areaServed: [
+      "شركة رائدة في التطوير العقاري في العاصمة الإدارية الجديدة والقاهرة الجديدة والمنصورة",
+    "areaServed": [
       {
         "@type": "City",
-        name: "New Administrative Capital",
+        "name": "العاصمة الإدارية الجديدة"
       },
       {
         "@type": "City",
-        name: "New Cairo",
+        "name": "القاهرة الجديدة"
       },
       {
         "@type": "City",
-        name: "Al Mansoura",
-      },
-    ],
+        "name": "المنصورة"
+      }
+    ]
   };
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: [
+    "itemListElement": [
       {
         "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: baseUrl,
+        "position": 1,
+        "name": "الرئيسية",
+        "item": baseUrl
       },
       {
         "@type": "ListItem",
-        position: 2,
-        name: "About Us",
-        item: `${baseUrl}/#about-us`,
+        "position": 2,
+        "name": "من نحن",
+        "item": `${baseUrl}/#about-us`
       },
       {
         "@type": "ListItem",
-        position: 3,
-        name: "Projects",
-        item: `${baseUrl}/#projects`,
+        "position": 3,
+        "name": "مشاريعنا",
+        "item": `${baseUrl}/#projects`
       },
       {
         "@type": "ListItem",
-        position: 4,
-        name: "Properties",
-        item: `${baseUrl}/#properties`,
-      },
-    ],
+        "position": 4,
+        "name": "العقارات",
+        "item": `${baseUrl}/#properties`
+      }
+    ]
   };
 
   return (

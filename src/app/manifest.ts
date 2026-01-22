@@ -2,9 +2,9 @@ import { MetadataRoute } from 'next'
  
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Nile Developments | The pioneer of skyscrapers',
-    short_name: 'Nile Developments',
-    description: 'Nile Developments is an Egyptian joint stock company listed on the Stock Exchange and the Investment Authority. It established by Eng. Mohamed Taher and Mr. Mahmoud Taher',
+    name: 'شركة نايل للتطوير العقاري | رائدة ناطحات السحاب',
+    short_name: 'نايل للتطوير العقاري',
+    description: 'شركة نايل للتطوير العقاري هي شركة مساهمة مصرية مقيدة بالبورصة وهيئة الاستثمار. تأسست بواسطة المهندس محمد طاهر والسيد محمود طاهر',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',

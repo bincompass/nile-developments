@@ -13,9 +13,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Nile Developments | The pioneer of skyscrapers",
+  title: "شركة نايل للتطوير العقاري | رائدة ناطحات السحاب",
   description:
-    "Nile Developments is an Egyptian joint stock company listed on the Stock Exchange and the Investment Authority. It established by Eng. Mohamed Taher and Mr. Mahmoud Taher",
+    "شركة نايل للتطوير العقاري هي شركة مساهمة مصرية مقيدة بالبورصة وهيئة الاستثمار. تأسست بواسطة المهندس محمد طاهر والسيد محمود طاهر",
   icons: {
     icon: '/fav-icon.png',
     shortcut: '/fav-icon.png',
@@ -26,19 +26,23 @@ export const metadata: Metadata = {
     },
   },
   keywords: [
+    "نايل للتطوير العقاري",
+    "شركة نايل",
+    "العقارات المصرية",
+    "ناطحات السحاب مصر",
+    "العاصمة الإدارية الجديدة",
+    "القاهرة الجديدة",
+    "المنصورة",
+    "مطور عقاري",
+    "برج تايكون",
+    "31 نورث تاور",
+    "نايل بيزنس سيتي",
+    "نايل بوليفارد",
+    "الأبراج التجارية مصر",
+    "المجمعات السكنية مصر",
     "Nile Developments",
     "Egyptian real estate",
-    "skyscrapers Egypt",
     "New Administrative Capital",
-    "New Cairo",
-    "Al Mansoura",
-    "real estate developer",
-    "Tycoon Center",
-    "31 North Tower",
-    "Nile Business City",
-    "Nile Boulevard",
-    "commercial towers Egypt",
-    "residential compounds Egypt",
   ],
   authors: [{ name: "Nile Developments" }],
   creator: "Nile Developments",
@@ -53,27 +57,27 @@ export const metadata: Metadata = {
     canonical: process.env.NEXT_PUBLIC_SITE_URL,
   },
   openGraph: {
-    title: "Nile Developments | The pioneer of skyscrapers",
+    title: "شركة نايل للتطوير العقاري | رائدة ناطحات السحاب",
     description:
-      "Nile Developments is an Egyptian joint stock company listed on the Stock Exchange and the Investment Authority. It established by Eng. Mohamed Taher and Mr. Mahmoud Taher",
+      "شركة نايل للتطوير العقاري هي شركة مساهمة مصرية مقيدة بالبورصة وهيئة الاستثمار. تأسست بواسطة المهندس محمد طاهر والسيد محمود طاهر",
     url: process.env.NEXT_PUBLIC_SITE_URL,
-    siteName: "Nile Developments",
-    locale: "en_US",
+    siteName: "نايل للتطوير العقاري",
+    locale: "ar_EG",
     type: "website",
     images: [
       {
         url: "/assets/images/heros/hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Nile Developments - Pioneer of Skyscrapers",
+        alt: "شركة نايل للتطوير العقاري - رائدة ناطحات السحاب",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nile Developments | The pioneer of skyscrapers",
+    title: "شركة نايل للتطوير العقاري | رائدة ناطحات السحاب",
     description:
-      "Nile Developments is an Egyptian joint stock company listed on the Stock Exchange and the Investment Authority. It established by Eng. Mohamed Taher and Mr. Mahmoud Taher",
+      "شركة نايل للتطوير العقاري هي شركة مساهمة مصرية مقيدة بالبورصة وهيئة الاستثمار. تأسست بواسطة المهندس محمد طاهر والسيد محمود طاهر",
     images: ["/assets/images/heros/hero.jpg"],
   },
   robots: {
@@ -99,7 +103,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ar" dir="rtl">
       <head>
         <noscript>
           <style>{`
