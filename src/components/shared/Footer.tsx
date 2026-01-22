@@ -46,10 +46,16 @@ const footerLinks = {
     },
   ],
   socials: [
-    { icon: Facebook, href: "#" },
-    { icon: Instagram, href: "#" },
-    { icon: Youtube, href: "#" },
-    { icon: Linkedin, href: "#" },
+    { icon: Facebook, href: "https://www.facebook.com/NileDevelopments/" },
+    { icon: Instagram, href: "https://www.instagram.com/nile.developments/" },
+    {
+      icon: Youtube,
+      href: "https://www.youtube.com/channel/UCYYiCSUHU8GVWtj0_pOwZdQ",
+    },
+    {
+      icon: Linkedin,
+      href: "https://www.linkedin.com/company/nile-developments/",
+    },
   ],
 };
 

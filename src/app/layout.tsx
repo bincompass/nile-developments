@@ -17,12 +17,12 @@ export const metadata: Metadata = {
   description:
     "نايل للتطوير العقاري هي شركة مساهمة مصرية ومقيدة بالبورصة وهيئة الاستثمار أسست بواسطة المهندس محمد طاهر و الأستاذ محمود طاهر.",
   icons: {
-    icon: '/fav-icon.png',
-    shortcut: '/fav-icon.png',
-    apple: '/fav-icon.png',
+    icon: "/fav-icon.png",
+    shortcut: "/fav-icon.png",
+    apple: "/fav-icon.png",
     other: {
-      rel: 'apple-touch-icon-precomposed',
-      url: '/fav-icon.png',
+      rel: "apple-touch-icon-precomposed",
+      url: "/fav-icon.png",
     },
   },
   keywords: [
@@ -103,7 +103,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl">
+    <html lang="en">
       <head>
         <noscript>
           <style>{`
