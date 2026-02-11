@@ -3,15 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {
-  Phone,
-  Video,
-  MessageCircle,
-  Facebook,
-  Instagram,
-  Youtube,
-  Linkedin,
-} from "lucide-react";
+import { Phone, Video, MessageCircle } from "lucide-react";
 
 const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
 
@@ -43,18 +35,6 @@ const footerLinks = {
       name: "Contact via WhatsApp",
       href: `https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`,
       icon: MessageCircle,
-    },
-  ],
-  socials: [
-    { icon: Facebook, href: "https://www.facebook.com/NileDevelopments/" },
-    { icon: Instagram, href: "https://www.instagram.com/nile.developments/" },
-    {
-      icon: Youtube,
-      href: "https://www.youtube.com/channel/UCYYiCSUHU8GVWtj0_pOwZdQ",
-    },
-    {
-      icon: Linkedin,
-      href: "https://www.linkedin.com/company/nile-developments/",
     },
   ],
 };
@@ -167,23 +147,10 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-xs text-gray-500 font-light text-center md:text-left">
-            © 2026 Nile Developments - Privacy policy Carefully crafted by{" "}
-            <span className="text-white">Right Mind ©</span>
+        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-center items-center gap-6">
+          <p className="text-xs text-gray-500 font-light text-center">
+            © 2026 Nile Developments
           </p>
-
-          <div className="flex items-center gap-6">
-            {footerLinks.socials.map((social, index) => (
-              <a
-                key={index}
-                href={social.href}
-                className="text-gray-400 hover:text-white transition-all hover:scale-110"
-              >
-                <social.icon className="w-5 h-5" />
-              </a>
-            ))}
-          </div>
         </div>
       </div>
     </footer>
